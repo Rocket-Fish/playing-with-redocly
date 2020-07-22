@@ -5,11 +5,11 @@
   "description": "Redocly portal template repository",
   "license": "MIT",
   "scripts": {
-    "start": "redocly-portal develop -p 3000",
+    "start": "REDOCLY_ACTIVE_ENV=custom redocly-portal develop -p 3000",
     "build": "redocly-portal build",
     "clean": "redocly-portal clean"
   },
   "dependencies": {
-    "@redocly/developer-portal": "^1.0.0-beta.57"
+    "@redocly/developer-portal": "^1.0.0-beta.68"
   }
 }
